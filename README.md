@@ -1,5 +1,8 @@
 # Frontend Assignment 2024
 
+## Live demo
+Попробовать приложение в действии можно тут: https://leann-fraoigh.github.io/TODO-app-live/.
+
 ## О сборке
 
 Сборка основана на стнадртном [шаблоне](<https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts>) React + TypeScript + Vite.
