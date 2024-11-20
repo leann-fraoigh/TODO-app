@@ -1,10 +1,11 @@
 import './assets/css/index.css';
 import { useState, useEffect } from 'react';
+import type { Task } from './interfaces';
 import { List } from './components/List';
 import { Form } from './components/Form';
 
 function App() {
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useState<Task[]>([]);
 
   useEffect(() => {
     const storedTasks = localStorage.getItem("todolist");
